@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="appName">BobBall</string>
+
+    <!-- screen in game -->
+    <string name="timeLeftLabel">"Zbývající čas: %d"</string>
+    <string name="livesLabel">"Životy: "</string>
+    <string name="scoreLabel">"Počet bodů: "</string>
+    <string name="areaClearedLabel">"% Vyčištěno: "</string>
+
+    <!-- menus in game -->
+    <string name="confirm">OK</string>
+
+        <!-- name prompt menu -->
+        <string name="highScoreAchieved">Gratulujeme, máte nejvyšší počet bodů</string>
+        <string name="namePrompt">Zadejte jméno:</string>
+        <string name="defaultName">Neznámý</string>
+
+        <!-- pause menu -->
+        <string name="pausedText">pozastaveno</string>
+        <string name="bttnTextResume">pokračovat ve hře</string>
+        <string name="backToLevelSelect">zpět k výběru úrovně</string>
+
+        <!-- won menu -->
+        <string name="levelCompleted">"Výborně, dokončili jste úroveň %d"</string>
+        <string name="nextLevel">DALŠÍ ÚROVEŇ</string>
+        <string name="percentageCleared">Vyčištěno: %s</string>
+        <string name="totalPercentageCleared">Celkem: %s</string>
+        <string name="bonusPoints">Bonus: %d</string>
+
+        <!-- lost menu -->
+        <string name="dead">Prohrál jste</string>
+        <string name="retry">Znovu</string>
+
+    <!-- Menus -->
+    <string name="menuBackButton">Zpět do hlavního menu</string>
+    <string name="exitApp">Konec</string>
+
+    <!-- Help Menu -->
+    <string name="helpTitle">Nápověda</string>
+    <string name="helpText">Jak hrát:         \n
+ Vytvořte proužky         \n
+ Pro vytvoření tvou pruhů táhněte prstem po obrazovce. Směr a počátek proužků určíte směrem a počátkem tažení.\n
+          \n
+ Proužky\n
+ Jakmile se jeden proužek dotkne červené kuličky, zmizí a Vy přijdete o jeden život. Když není druhý proužek ještě dokončen a nedotkl se kuličky, vytvoříte jeden proužek tažením.        \n
+ \n
+ Vyčistěte oblasti\n
+ Až úplně obklopíte oblast proužky (nebo okraji herního pole), ve které není žádná kulička, bude „vyčistěna.“\n
+         \n
+ Časový limit\n
+ Časový limit je zobrazen v desetinách milisekundy (1s=1.000ms=10.000 jednotek). Čím vyšší je Vaše úroveň, tím více času dostanete. Jakmile čas vyprší, prohrajete.\n
+          \n
+ Životy\n
+ O jeden život přijdete když kulička narazí do proužku. Jakmile ztratíte všechny životy, prohrajete.         \n
+          \n
+ Cíl hry         \n
+ Cílem hry na každé úrovni je vyčistit 75 % herního pole.\n
+          \n
+ Hra s počítačem    \n
+ Zvolíte-li více než jednoho hráče, budete hrát s počítačem. Tito hráči mohou dělat totéž, co Vy, ale za jejich činnost nedostáváte body      \n
+          \n
+ Odemykání úrovní\n
+ Pro odemčení úrovně musítr vyhrát předchozí úroveň. Úrovně se odemykají zvlášť pro hru s a bez pomoci počítače.</string>
+
+    <!-- High Scores Menu -->
+    <string name="highScoreTitle">Nejlepší hry</string>
+    <string name="noRecords">Ještě neproběhla hra</string>
+
+    <!-- Options Menu -->
+    <string name="optionsTitle">Možnosti</string>
+    <string name="setDefaultName">Výchozí jméno:</string>
+    <string name="levelSelectSettingsText">Automatická volba úrovně:</string>
+    <string-array name="levelSelectSettings">
+        <item>úroveň 1</item>
+        <item>poslední zvolená úroveň</item>
+        <item>n</item>
+        <item>poslední prohraná úroveň</item>
+    </string-array>
+    <string name="retryActionSettingsText">akce tlačítka Znovu:</string>
+    <string-array name="retryActionSettings">
+        <item>Zpět do volby úrovně</item>
+        <item>R</item>
+        <item>Pokračovat od zvolené úrovně</item>
+        <item>Začít od 1. úrovně</item>
+    </string-array>
+    <string name="confirmOptions">Potvrdit</string>
+    <string name="cancel">Zrušit</string>
+
+    <!-- Single Player Menu -->
+    <string name="singlePlayerTitle">Jeden hráč</string>
+    <string name="playerNumber">"Hráči "</string>
+    <string name="levelSelect">"Úroveň "</string>
+    <string name="startGame">Hrát</string>
+
+    <!-- Statistics Menu -->
+    <string name="statisticsTitle">Statistiky</string>
+    <string name="gamesPlayedText">Odehráno: %d her</string>
+    <string name="highestLevelText">Nejvyšší úroveň: %d</string>
+    <string name="levelSeriesText">Nejlepší řada úrovní: %d</string>
+    <string name="highestLevelScoreText">Nejvyšší počet bodů v úrovni: %d</string>
+    <string name="topScoreText">Nejvyšší celkový počet bodů: %d</string>
+    <string name="timeLeftRecordText">Max. zbývající čas: %d</string>
+    <string name="percentageClearedText">Vyčišteno nejvíce: %s</string>
+    <string name="livesLeftRecordText">Nejvyšší počet zbylých úrovní: %d</string>
+    <string name="leastTimeLeftText">Nejnižší zbývající čas: %d</string>
+
+</resources>
